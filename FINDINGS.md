@@ -1,4 +1,4 @@
-# FINDINGS — Data Quality Lessons Learned
+# FINDINGS - Data Quality Lessons Learned
 
 This document directly answers Clairva's application question:
 > "A short note on a dataset you have worked with and what you learned about data quality."
