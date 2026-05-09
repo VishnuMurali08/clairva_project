@@ -1,0 +1,79 @@
+{
+  "action": [
+    "walk",
+    "wave",
+    "point",
+    "nod",
+    "pull",
+    "lead",
+    "lunge",
+    "strike",
+    "dodge",
+    "parry",
+    "retreat",
+    "movement_sequence",
+    "spin",
+    "kick",
+    "crouch",
+    "jump"
+  ],
+  "action_subtype": [
+    "formal",
+    "casual",
+    "aggressive",
+    "defensive",
+    "slow_controlled",
+    "fast",
+    "offensive",
+    "feint",
+    "ceremonial",
+    "playful"
+  ],
+  "intent": [
+    "navigate",
+    "exercise",
+    "bond",
+    "compete",
+    "attack",
+    "defend",
+    "perform",
+    "celebrate",
+    "comfort",
+    "threaten",
+    "unknown"
+  ],
+  "emotion": [
+    "happy",
+    "sad",
+    "angry",
+    "neutral",
+    "calm",
+    "tense",
+    "excited",
+    "fearful",
+    "surprised",
+    "uncertain"
+  ],
+  "diarization": [
+    "person_A",
+    "person_B",
+    "both",
+    "person_and_animal",
+    "unknown"
+  ],
+  "cultural_context": [
+    "western",
+    "SEA",
+    "south_asian",
+    "east_asian",
+    "middle_eastern",
+    "african",
+    "latin",
+    "unknown"
+  ],
+  "confidence": [
+    1,
+    2,
+    3
+  ]
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+.ipynb_checkpoints/
+data/raw_videos/
+data/frames/
+.DS_Store
+Thumbs.db
+*.egg-info/
+dist/
+build/

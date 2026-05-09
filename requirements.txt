@@ -1,0 +1,11 @@
+pandas
+numpy
+opencv-python
+matplotlib
+jupyter
+notebook
+jsonschema
+scikit-learn
+seaborn
+tqdm
+Pillow

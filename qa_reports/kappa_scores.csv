@@ -1,0 +1,5 @@
+label_column,kappa_score,interpretation
+action,0.8266,almost perfect
+intent,0.8404,almost perfect
+emotion,0.8396,almost perfect
+cultural_context,0.7521,substantial

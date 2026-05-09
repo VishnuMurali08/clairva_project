@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AsiaInteract Annotation Schema",
+  "description": "Schema for multi-person and person-animal interaction video annotations",
+  "type": "object",
+  "required": [
+    "video_id",
+    "annotator_id",
+    "start_time_sec",
+    "end_time_sec",
+    "action",
+    "intent",
+    "emotion",
+    "diarization",
+    "cultural_context",
+    "confidence"
+  ],
+  "properties": {
+    "video_id": {
+      "type": "string",
+      "description": "Unique video clip identifier e.g. WalkingWithDog_001"
+    },
+    "annotator_id": {
+      "type": "string",
+      "description": "Who created this annotation"
+    },
+    "start_time_sec": {
+      "type": "number",
+      "minimum": 0
+    },
+    "end_time_sec": {
+      "type": "number",
+      "minimum": 0
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "walk",
+        "wave",
+        "point",
+        "nod",
+        "pull",
+        "lead",
+        "lunge",
+        "strike",
+        "dodge",
+        "parry",
+        "retreat",
+        "movement_sequence",
+        "spin",
+        "kick",
+        "crouch",
+        "jump"
+      ]
+    },
+    "action_subtype": {
+      "type": "string",
+      "enum": [
+        "formal",
+        "casual",
+        "aggressive",
+        "defensive",
+        "slow_controlled",
+        "fast",
+        "offensive",
+        "feint",
+        "ceremonial",
+        "playful"
+      ]
+    },
+    "intent": {
+      "type": "string",
+      "enum": [
+        "navigate",
+        "exercise",
+        "bond",
+        "compete",
+        "attack",
+        "defend",
+        "perform",
+        "celebrate",
+        "comfort",
+        "threaten",
+        "unknown"
+      ]
+    },
+    "emotion": {
+      "type": "string",
+      "enum": [
+        "happy",
+        "sad",
+        "angry",
+        "neutral",
+        "calm",
+        "tense",
+        "excited",
+        "fearful",
+        "surprised",
+        "uncertain"
+      ]
+    },
+    "diarization": {
+      "type": "string",
+      "enum": [
+        "person_A",
+        "person_B",
+        "both",
+        "person_and_animal",
+        "unknown"
+      ]
+    },
+    "cultural_context": {
+      "type": "string",
+      "enum": [
+        "western",
+        "SEA",
+        "south_asian",
+        "east_asian",
+        "middle_eastern",
+        "african",
+        "latin",
+        "unknown"
+      ]
+    },
+    "confidence": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ]
+    },
+    "ambiguity_flag": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,16 @@
+video_id,annotator_id,start_time_sec,end_time_sec,action,action_subtype,intent,emotion,diarization,cultural_context,confidence,ambiguity_flag,notes
+v_WalkingWithDog_g01_c01,annotator_B,0.0,4.0,walk,casual,exercise,calm,person_and_animal,western,3,False,Person walking dog on leash at steady pace on footpath
+v_WalkingWithDog_g01_c02,annotator_B,0.0,5.0,walk,playful,bond,happy,person_and_animal,unknown,2,True,Person jogging with dog — ambiguous between navigate and bond
+v_WalkingWithDog_g01_c03,annotator_B,1.0,4.5,walk,slow_controlled,exercise,neutral,person_and_animal,western,3,False,"Elderly person walking small dog, deliberate slow pace"
+v_WalkingWithDog_g01_c04,annotator_B,0.0,3.0,pull,fast,navigate,uncertain,person_and_animal,western,2,True,"Dog pulling on leash, person being dragged — unclear who is leading"
+v_WalkingWithDog_g01_c05,annotator_B,0.5,4.0,walk,casual,bond,excited,person_and_animal,western,3,False,"Person smiling, dog tail wagging, clear bonding interaction"
+v_TaiChi_g01_c01,annotator_B,0.0,5.0,movement_sequence,slow_controlled,perform,calm,person_A,east_asian,3,False,"Traditional Tai Chi form, solo practitioner, fluid movements"
+v_TaiChi_g01_c02,annotator_B,0.0,6.0,spin,ceremonial,perform,neutral,both,east_asian,2,True,Two people performing in sync — could be group exercise or demonstration
+v_TaiChi_g01_c03,annotator_B,0.0,7.0,movement_sequence,slow_controlled,exercise,calm,person_A,SEA,2,True,"Solo form outdoors — cultural context uncertain, could be SEA or east_asian"
+v_TaiChi_g01_c04,annotator_B,2.0,8.0,movement_sequence,ceremonial,perform,neutral,person_A,east_asian,3,False,"Formal demonstration setting, audience visible in background"
+v_TaiChi_g01_c05,annotator_B,0.0,5.5,movement_sequence,slow_controlled,exercise,calm,both,SEA,3,False,"Instructor and student side by side, mirroring movements"
+v_Fencing_g01_c01,annotator_B,0.0,2.0,lunge,offensive,attack,uncertain,person_A,western,3,False,"Clean forward lunge, full arm extension, clear attack"
+v_Fencing_g01_c02,annotator_B,0.5,2.5,dodge,defensive,defend,tense,person_B,western,2,True,Parry motion visible but could be transitioning to counter-attack
+v_Fencing_g01_c03,annotator_B,1.0,3.0,retreat,defensive,defend,fearful,person_B,western,3,False,"Person stepping backward repeatedly, clearly on defensive"
+v_Fencing_g01_c04,annotator_B,0.0,1.5,lunge,feint,attack,tense,person_A,western,1,True,"Movement looks like feint — arm pulled back before full extension, low confidence"
+v_Fencing_g01_c05,annotator_B,0.0,4.0,movement_sequence,fast,compete,excited,both,western,3,False,Rapid exchange of attacks and parries between both fencers

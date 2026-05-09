@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "./venv/bin/python",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "files.autoSave": "afterDelay",
+  "jupyter.askForKernelRestart": false,
+  "editor.rulers": [88],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "venv": true
+  }
+}
