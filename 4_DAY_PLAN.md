@@ -1,4 +1,4 @@
-# 4-Day Project Plan — AsiaInteract
+# Project Plan — AsiaInteract
 
 ## Day 1 — Setup + Data + Schema
 - [ ] Run `python scripts/setup.py`
