@@ -6,7 +6,7 @@ This document directly answers Clairva's application question:
 ---
 
 ## Dataset
-UCF101 subset — WalkingWithDog, TaiChi, Fencing (~100 clips)
+UCF101 subset - WalkingWithDog, TaiChi, Fencing (~100 clips)
 
 ---
 
