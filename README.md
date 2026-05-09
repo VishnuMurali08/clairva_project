@@ -1,4 +1,4 @@
-# AsiaInteract — Annotated Human Interaction Dataset
+# AsiaInteract - Annotated Human Interaction Dataset
 
 ## Overview
 An end-to-end annotation pipeline for multi-person interaction video,
