@@ -14,9 +14,9 @@ This project demonstrates:
 
 ## Dataset
 UCF101 subset — 3 interaction categories:
-- HandshakeGreeting (~25 clips)
-- TaiChi (~25 clips)
-- Fencing (~25 clips)
+- WalkingWithDog (~100 clips)
+- TaiChi (~100 clips)
+- Fencing (~100 clips)
 
 ## Project Structure
 ```
@@ -88,5 +88,4 @@ python scripts/quality_impact.py
 ## Key Findings
 See [FINDINGS.md](FINDINGS.md) for data quality lessons learned.
 
-## Author
-Portfolio project for Clairva AI Data Scientist application — 2026
+
